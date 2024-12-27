@@ -1,0 +1,185 @@
+{
+    "user": {
+      "username": "admin",
+      "password": "Admin123!@#",
+      "captcha": "223366"
+    },
+    "app": {
+      "name": "test5"
+    },
+    "database": {
+      "name": "testing"
+    },
+    "graph": {
+      "nodeType": "Family",
+      "nodeProps": "Family Tree"
+    },
+    "family": [
+      {
+        "l": "Satish Kalepu",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Male"],
+          "Siblings": ["Person:Sagar Kalepu"],
+          "Parents": ["Person:Veera Raghavulu", "Person:Surya Kumari"],
+          "Spouse": ["Person:Pichika Purna Bindu"],
+          "Children": ["Person:Pavan Veerendra", "Person:Surya Siddharth"],
+          "Occupation": ["Software Engineer"],
+          "Positions Held": ["AVP CarTradeTech", "Senior Programmer in CarTradeIndia"],
+          "Date of Birth": ["1983-01-03"],
+          "Place of Birth": ["City:Razole"],
+          "Description": "Satish lives in Kakinada city and works for a company called CArTrade Tech Limited"
+        }
+      },
+      {
+        "l": "Sagar Kalepu",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Male"],
+          "Siblings": ["Person:Satish Kalepu"],
+          "Parents": ["Person:Veera Raghavulu", "Person:Surya Kumari"],
+          "Spouse": ["Person:Allaka Padmavathi"],
+          "Children": ["Person:Hasini Sruthi", "Person:Sai Navadeep"],
+          "Occupation": ["Software Engineer"],
+          "Positions Held": ["SAP Basis Administrator in Utilli", "Basis Administrator in UNIDO"],
+          "Date of Birth": ["1984-07-10"],
+          "Place of Birth": ["City:Razole"],
+          "Description": "Sagar lives in Kakinada city and a good hardware engineer"
+        }
+      },
+      {
+        "l": "Pichika Purna Bindu",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Female"],
+          "Parents": ["Person:Surya Satyanarayana", "Person:Mavuri Bhavani"],
+          "Spouse": ["Person:Satish Kalepu"],
+          "Children": ["Person:Pavan Veerendra", "Person:Surya Siddharth"],
+          "Occupation": ["Home maker"],
+          "Date of Birth": ["1992-04-16"],
+          "Place of Birth": ["City:Malkipuram"],
+          "Description": "Bindu hails from a village near Antarvedi."
+        }
+      },
+      {
+        "l": "Allaka Padmavathi",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Female"],
+          "Spouse": ["Person:Sagar Kalepu"],
+          "Children": ["Person:Hasini Sruthi", "Person:Sai Navadeep"],
+          "Occupation": ["Home maker"],
+          "Date of Birth": ["1993-06-10"],
+          "Place of Birth": ["City:Vetlapalem"],
+          "Description": "Nothing much"
+        }
+      },
+      {
+        "l": "Pavan Veerendra",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Male"],
+          "Parents": ["Person:Satish Kalepu", "Person:Pichika Purna Bindu"],
+          "Siblings": ["Person:Surya Siddharth", "Person:Hasini Sruthi", "Person:Sai Navadeep"],
+          "Occupation": ["Student"],
+          "Date of Birth": ["2012-11-10"],
+          "Place of Birth": ["City:Malkipuram"]
+        }
+      },
+      {
+        "l": "Surya Siddharth",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Male"],
+          "Parents": ["Person:Satish Kalepu", "Person:Pichika Purna Bindu"],
+          "Siblings": ["Person:Pavan Veerendra", "Person:Hasini Sruthi", "Person:Sai Navadeep"],
+          "Occupation": ["Student"],
+          "Date of Birth": ["2012-11-10"],
+          "Place of Birth": ["City:Malkipuram"]
+        }
+      },
+      {
+        "l": "Hasini Sruthi",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Female"],
+          "Parents": ["Person:Sagar Kalepu", "Person:Allaka Padmavathi"],
+          "Siblings": ["Person:Pavan Veerendra", "Person:Surya Siddharth", "Person:Sai Navadeep"],
+          "Occupation": ["Student"],
+          "Date of Birth": ["2014-05-10"],
+          "Place of Birth": ["City:Vetlapalem"]
+        }
+      },
+      {
+        "l": "Sai Navadeep",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Male"],
+          "Parents": ["Person:Sagar Kalepu", "Person:Allaka Padmavathi"],
+          "Siblings": ["Person:Pavan Veerendra", "Person:Surya Siddharth", "Person:Hasini Sruthi"],
+          "Occupation": ["Student"],
+          "Date of Birth": ["2017-09-05"],
+          "Place of Birth": ["City:Vetlapalem"]
+        }
+      },
+      {
+        "l": "Veera Raghavulu",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Male"],
+          "Spouse": ["Person:Surya Kumari"],
+          "Children": ["Person:Satish Kalepu", "Person:Sagar Kalepu"],
+          "Occupation": ["Watch Macanic"],
+          "Date of Birth": ["1960-01-01"],
+          "Place of Birth": ["City:Bandarulanka"]
+        }
+      },
+      {
+        "l": "Surya Kumari",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Female"],
+          "Spouse": ["Person:Veera Raghavulu"],
+          "Children": ["Person:Satish Kalepu", "Person:Sagar Kalepu"],
+          "Occupation": ["Home Maker"],
+          "Date of Birth": ["1955-01-01"],
+          "Place of Birth": ["City:Razole"]
+        }
+      },
+      {
+        "l": "Chiranjeevi",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Male"],
+          "Children": ["Person:Ramcharan"],
+          "Siblings": ["Person:Pavan Kalyan", "Person:Nagababu"],
+          "Occupation": ["Actor", "Politician"],
+          "Positions Held": ["MP Loksabha", "Minister Tourism"]
+        }
+      },
+      {
+        "l": "Ramcharan",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Male"],
+          "Parents": ["Person:Chiranjeevi", "Person:Sureka"],
+          "Spouse": ["Person:Upasana"],
+          "Siblings": ["Person:Allu Arjun"],
+          "Occupation": ["Actor", "Producer"],
+          "Positions Held": ["MD AirIndia"]
+        }
+      },
+      {
+        "l": "Pavan Kalyan",
+        "i_of": "Person",
+        "props": {
+          "Gender": ["Male"],
+          "Spouse": ["Person:Russian"],
+          "Siblings": ["Person:Chiranjeevi", "Person:Nagababu"],
+          "Occupation": ["Actor", "Producer", "Politician"],
+          "Positions Held": ["MLA Pitapuram", "Deputy CM Andhra Pradesh", "Minister PanchayatiRaj"]
+        }
+      }
+    ]
+  }
+  

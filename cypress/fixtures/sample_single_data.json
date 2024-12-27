@@ -1,0 +1,16 @@
+{
+    "l": "Satish Kalepu",
+    "i_of": "Person",
+    "props": {
+        "Gender": ["Male"],
+        "Siblings": ["Person:Sagar Kalepu"],
+        "Parents": ["Person:Veera Raghavulu", "Person:Surya Kumari"],
+        "Spouse": ["Person:Pichika Purna Bindu"],
+        "Children": ["Person:Pavan Veerendra", "Person:Surya Siddharth"],
+        "Occupation": ["Software Engineer"],
+        "Positions Held": ["AVP CarTradeTech", "Senior Programmer in CarTradeIndia"],
+        "Date of Birth": ["1983-01-03"],
+        "Place of Birth": ["City:Razole"],
+        "Description": "Satish lives in Kakinada city and works for a company called CarTrade Tech Limited"
+    }
+}
