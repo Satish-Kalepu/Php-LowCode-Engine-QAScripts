@@ -1,0 +1,12 @@
+{
+    "URL": "http://localhost:8888/apimaker/",
+    "username": "admin",
+    "password": "Admin123!@#",
+    "captcha" : "1234",
+    "applicationName": "MyFirstApp",
+    "description": "this was created by using automation script",
+    "api_1": "sample-api-test",
+    "api_1description" : "Testing All the Loop Functions",
+    "table_name" : "sampletable",
+    "table_description" : "this was created by using automation script"
+}
